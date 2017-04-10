@@ -63,7 +63,9 @@ class CustomVariables extends \Piwik\Plugin
      */
     public static function getMaxLengthCustomVariables()
     {
-        return 200;
+        // return 200;
+        // increased customVariable length
+        return 50000;
     }
 
     /**
